@@ -31,7 +31,7 @@ class TransactionCard extends StatelessWidget {
             children: [
               Text(
                 transaction.title,
-                style: Theme.of(context).textTheme.title,
+                style: Theme.of(context).textTheme.headline6,
               ),
               Text(
                 DateFormat.yMMMd().format(transaction.date).toString(),

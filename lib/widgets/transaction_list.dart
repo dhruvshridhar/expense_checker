@@ -21,7 +21,7 @@ class TransactionList extends StatelessWidget {
                 children: [
                     Text(
                       "No transactions added yet!",
-                      style: Theme.of(context).textTheme.title,
+                      style: Theme.of(context).textTheme.headline6,
                       textAlign: TextAlign.center,
                     ),
                     Container(
@@ -52,7 +52,7 @@ class TransactionList extends StatelessWidget {
                       ),
                       title: Text(
                         _transactions[index].title,
-                        style: Theme.of(context).textTheme.title,
+                        style: Theme.of(context).textTheme.headline6,
                       ),
                       subtitle: Text(
                           DateFormat.yMMMd().format(_transactions[index].date)),
